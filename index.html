@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./asset/css/main.css">
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="" ><img src="./asset/img/logo.png" class="logo" alt=""></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="">Menu</a></li>
+                <li><a href="">What</a></li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Estore</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>It's not just Coffee<br> It's <span>Starbucks</span></h2>
+                <p>Trong suốt quá trình hoạt động và phát triển, đội ngũ quản lý và nhân viên của Phúc Long Coffee & Tea, qua bao thế hệ, đã cùng nhau xây dựng, nuôi dưỡng niềm đam mê dành cho trà và cà phê với mong muốn được thử thách bản thân trong ngành dịch vụ năng động và sáng tạo.</p>
+                    <a href="#">Learn More</a>
+            </div>
+            <div class="imgBox">
+                <img src="./asset/img/img1.png" class="starbucks" alt="">
+            </div>
+        </div>
+        <ul class="thum">
+            <li><img src="./asset/img/thumb1.png" onclick="imgSlider(img1.png)" alt=""></li>
+            <li><img src="./asset/img/thumb2.png" onclick="imgSlider(img2.png)" alt=""></li>
+            <li><img src="./asset/img/thumb3.png" onclick="imgSlider(img3.png)" alt=""></li>
+        </ul>
+        
+    </section>
+    <script type="text/javascript">
+    function imgSlider(anthing) {
+        document.querySelector('.starbucks').src = anthing;
+    }
+    </script>
+</body>
+</html>
